@@ -14,7 +14,7 @@
                 <ui-list-item title="随机密码" to="/tool">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item> -->
-                <ui-list-item title="关于" href="https://project.yunser.com/products/9bcb8940004d11e9824a99115ab36818" target="_blank">
+                <ui-list-item title="关于" href="https://project.yunser.com/products/98c685d0956a11e98780fb3cb9efeadc" target="_blank">
                     <ui-icon slot="left" value="info"/>
                 </ui-list-item>
             </ui-list>

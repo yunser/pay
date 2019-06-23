@@ -1,5 +1,5 @@
 <template>
-    <my-page title="密码" :page="page">
+    <my-page title="支付" :page="page">
         <div class="common-container container">
             <app-list :data="groups" />
         </div>
@@ -7,6 +7,7 @@
 </template>
 
 <script>
+    /* eslint-disable */
     export default {
         data () {
             return {
@@ -15,23 +16,11 @@
                         // name: '初等',
                         apps: [
                             {
-                                name: '密码管理',
+                                name: '我的余额',
                                 desc: '',
                                 icon: '/static/img/encrypt.svg',
-                                to: '/manage'
+                                to: '/money'
                             },
-                            {
-                                name: '密码生成',
-                                desc: '',
-                                icon: '/static/img/encrypt.svg',
-                                to: '/password/generator'
-                            },
-                            {
-                                name: '随机密码',
-                                desc: '',
-                                icon: '/static/img/encrypt.svg',
-                                to: '/tool'
-                            }
                         ]
                     }
                 ],
@@ -39,15 +28,8 @@
                     menu: [
                         {
                             type: 'icon',
-                            icon: 'search',
-                            href: 'https://search.yunser.com?utm_source=password',
-                            target: '_blank',
-                            title: '搜索'
-                        },
-                        {
-                            type: 'icon',
                             icon: 'apps',
-                            href: 'https://app.yunser.com?utm_source=password',
+                            href: 'https://app.yunser.com?utm_source=pay',
                             target: '_blank',
                             title: '应用'
                         }
