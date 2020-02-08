@@ -13,6 +13,7 @@ let routes = [
         path: '/',
         component: Home
     },
+    { path: '/coin', component: resolve => require(['@/views/Coin'], resolve) },
     {
         path: '/money',
         component: Money

@@ -21,6 +21,12 @@
                                 icon: '/static/img/encrypt.svg',
                                 to: '/money'
                             },
+                            {
+                                name: '我的硬币',
+                                desc: '',
+                                icon: '/static/img/encrypt.svg',
+                                to: '/coin'
+                            },
                         ]
                     }
                 ],
